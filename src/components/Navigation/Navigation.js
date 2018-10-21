@@ -10,7 +10,7 @@ const Navigation = props => (
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">O mnie</Link></li>
         <li><Link to="/projects">Projekty</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/contact">Kontakt</Link></li>
       </ul>
     </nav>
   </div>
