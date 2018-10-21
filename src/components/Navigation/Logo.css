@@ -1,0 +1,32 @@
+.logo {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.logo hr {
+    background: #c7ad88;
+    width: 60px;
+    height: 1px;
+    border: 0px;
+}
+
+.logo h1 {
+    font-family: Roboto;
+    color: #555555;
+    font-size: 80px;
+    letter-spacing: 3px;
+    margin: 40px 0;
+}
+
+.logo h2 {
+    text-align: left;
+    color: #555555;
+    letter-spacing: 2px;
+}
+
+.logo h1 span,
+.logo h2 span {
+    color: #c7ad88;
+}
+

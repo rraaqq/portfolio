@@ -1,0 +1,18 @@
+.navigation {
+    background-color: #fff;
+    padding: 40px;
+    font-size: 14px;
+    
+}
+
+.navigation ul {
+    font-family: Roboto;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+}
