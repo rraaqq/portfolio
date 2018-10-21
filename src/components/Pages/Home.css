@@ -1,5 +1,5 @@
 .home {
-    background-image: url('/home-background.jpg');
+    background-image: url('./home-background.jpg');
     background-position: center;
     background-size: cover; 
     width: 100%;
