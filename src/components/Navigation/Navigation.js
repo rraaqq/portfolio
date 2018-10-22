@@ -7,7 +7,7 @@ const Navigation = props => (
   <div className="navigation">
     <nav>
       <ul>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="./">Home</Link></li>
         <li><Link to="/about">O mnie</Link></li>
         <li><Link to="/projects">Projekty</Link></li>
         <li><Link to="/contact">Kontakt</Link></li>

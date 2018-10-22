@@ -1,5 +1,46 @@
-#map {
-    width: 100%;
-    height: 400px;
-    background-color: grey;
+.contact-img {
+    background-image: url('./contact.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding: 70px;
+    position: relative;
 }
+
+.contact-border {
+    border: 3px solid #c7ad88;
+    height: 310px;
+}
+
+.contact-container h2 {
+    left: 100px;
+    bottom: 40px;
+    position: absolute;
+    color: #fff;
+    font-size: 48px;
+}
+
+.contact-details {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details-item {
+    margin: 20px;
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600; 
+}
+
+.contact-details-item svg {
+    font-size: 20px;
+    color: #222222;
+    margin-right: 30px;
+}
+
+
+  
