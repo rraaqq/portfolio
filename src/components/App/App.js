@@ -12,20 +12,37 @@ import './App.css';
 
 library.add( faArrowUp );
 
-const App = () => {
-  return (
-    <div className="app-container">
+class App extends React.Component {
+
+  scrollTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
+  scrollDown() {
+    window.scrollTo({
+      top: 900,
+      behavior: "smooth"
+    })
+  }
+
+  render() {
+    return (
+      <div className="app-container">
       <header>
         <Logo />
-        <Navigation />
+        <Navigation scrollDown={this.scrollDown}/>
         <Footer />
       </header>
       <section>
         <Content />
       </section>
-      <button className="back-to-top"><FontAwesomeIcon icon={ faArrowUp } /></button>
+      <button className="back-to-top" onClick={this.scrollTop}><FontAwesomeIcon icon={ faArrowUp } /></button>
     </div>
-  )
+    );
+  }
 }
 
 export default App;

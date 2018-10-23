@@ -7,10 +7,10 @@ const Navigation = props => (
   <div className="navigation">
     <nav>
       <ul>
-        <li><Link to="./">Home</Link></li>
-        <li><Link to="/about">O mnie</Link></li>
-        <li><Link to="/projects">Projekty</Link></li>
-        <li><Link to="/contact">Kontakt</Link></li>
+        <li><Link to="/" onClick={props.scrollDown}>Home</Link></li>
+        <li><Link to="/about" onClick={props.scrollDown}>O mnie</Link></li>
+        <li><Link to="/projects" onClick={props.scrollDown}>Projekty</Link></li>
+        <li><Link to="/contact" onClick={props.scrollDown}>Kontakt</Link></li>
       </ul>
     </nav>
   </div>

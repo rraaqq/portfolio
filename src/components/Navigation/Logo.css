@@ -30,3 +30,8 @@
     color: #c7ad88;
 }
 
+@media all and (max-width: 768px) {
+    .logo h2 {
+        text-align: center;
+    }
+}

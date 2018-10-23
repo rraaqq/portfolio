@@ -93,8 +93,8 @@ section {
 }
 
 .back-to-top {
-    position: absolute;
-    
+    position: fixed;
+    visibility: hidden;
     right: 50px;
     bottom: 50px;
     width: 50px;
@@ -102,12 +102,22 @@ section {
     border-radius: 50%;
     background-color: #c7ad88;
     border: none;
+    animation: bounce 1s infinite alternate;
 }
 
 .back-to-top svg {
     color: #fff;
     font-size: 20px;
 }
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
 
 @media screen and (max-width: 575px) {
     
@@ -118,6 +128,10 @@ section {
         flex-direction: column;
     }
 
+    .back-to-top {
+        visibility: visible;
+    }
+
     section {
         margin-left: 0;
     }
@@ -126,6 +140,11 @@ section {
         position: unset;
         width: 100%;
         text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+        padding: 10px 0;
     }
  }
  
