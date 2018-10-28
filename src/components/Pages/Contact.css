@@ -3,18 +3,18 @@
     background-position: center;
     background-size: cover;
     height: 450px;
-    padding: 70px;
+    padding: 50px;
     position: relative;
 }
 
 .contact-border {
     border: 3px solid #c7ad88;
-    height: 310px;
+    height: 350px;
 }
 
 .contact-container h2 {
-    left: 100px;
-    bottom: 40px;
+    left: 80px;
+    bottom: 20px;
     position: absolute;
     color: #fff;
     font-size: 48px;

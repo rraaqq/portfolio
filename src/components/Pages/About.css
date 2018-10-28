@@ -1,0 +1,44 @@
+.about-img {
+    background-image: url('./about.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding: 50px;
+    position: relative;
+    opacity: 0.8;
+}
+
+.about-border {
+    border: 3px solid #c7ad88;
+    height: 350px;
+}
+
+.about-container span {
+    left: 80px;
+    bottom: 60px;
+    position: absolute;
+    color: #fff;
+    font-size: 48px;
+}
+
+.about-me {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-me-img {
+    background-image: url('./me.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.about-me p {
+    font-size: 16px;
+    color: #333333
+}
+

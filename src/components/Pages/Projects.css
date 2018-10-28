@@ -18,3 +18,24 @@
     transform: scale(1.05);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.projects-tech-list {
+    margin-top: 50px;
+    width: 100%;
+    min-height: 120px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects-tech {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.projects-tech-item {
+    flex: 1;
+    width: 60px;
+    font-size: 60px;
+}
